@@ -8,7 +8,7 @@ program first_program;
 
 (*Phần từ "begin" cho đến "end." là phần chương
 trình chính (hay còn dc gọi là hàm chính), mọi công đoạn 
-nhập xuất sẽ dc diễn ra ở đây. Cho phép mình dc gọi là
+nhập xuất, tính toán, ... sẽ dc diễn ra ở đây. Cho phép mình dc gọi là
 hàm main. Kết thúc mỗi lệnh phải có dấu chấm phẩy (;) *)
 begin
 	(*In ra dòng chữ "Hello World in Pascal"*)
