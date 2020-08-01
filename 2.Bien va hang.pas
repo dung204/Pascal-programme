@@ -28,11 +28,15 @@ var
 	x1, x2: string;
 
 (*Hằng (const) là một đơn vị trong bộ nhớ. Hằng giống biến ở chỗ 
-cùng chứa một giá trị nào đó. Nhưng biến không thay đổi giá trị suốt
+cùng chứa một giá trị nào đó. Nhưng hằng không thay đổi giá trị suốt
 quá trình thực hiện các câu lệnh - là một giá trị chỉ đọc (read-only).
 Hằng không giới hạn kiểu dữ liệu*)
 
 (*Cú pháp: const <tên hằng> = <giá trị cần gán>; *)
+
+(*Tên hằng viết hoa hay không là tùy nhưng người ta 
+thường hay viết hoa hoàn toàn cho tên biến đễ dễ phân biệt
+và nhấn mạnh*)
 const MAX = 10;
 
 begin
