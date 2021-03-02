@@ -26,7 +26,7 @@ begin
 
 	(*Nếu cần in nhiều thứ trong cùng 1 câu lệnh write
 	(writeln) thì mỗi phần phải cách nhau bởi dấu phẩy (,) *)
-	write("Toi co ", a+b, ' qua tao.');
+	write('Toi co ', a+b, ' qua tao.');
 	readln;
 
 	(*Note: các câu lệnh có từ "ln" ở cuối từ có nghĩa là
