@@ -18,14 +18,16 @@ var a: integer;
 
 (*Nếu có nhiều biến cùng kiểu dữ liệu biến thì có thể 
 khai báo kiểu như sau: *)
-var a, b, c, d: byte
+var a, b, c, d: byte;
 
 (*Cách khai báo nhiều biến với nhiều kiểu dữ liệu 
 khác nhau*)
 var 
-	a, b: integer;
-	c, d: real;
-	x1, x2: string;
+	a, b : integer;
+	c, d : real;
+	x1, x2 : string;
+	x3 : char;
+	x4 : boolean;
 
 (*Hằng (const) là một đơn vị trong bộ nhớ. Hằng giống biến ở chỗ 
 cùng chứa một giá trị nào đó. Nhưng hằng không thay đổi giá trị suốt
@@ -40,5 +42,9 @@ và nhấn mạnh*)
 const MAX = 10;
 
 begin
-
+	a := 12; { Giá trị (các bạn hay gọi là số, chữ, ...) biến kiểu nguyên }
+	c := 3.14; { Giá trị biến kiểu thực, dấu thập phân là dấu chấm (.), không phải là dấu phẩy }
+	x1 := 'Hello everyone'; { Xâu kí tự, phải có dấu nháy đơn ('') }
+	x3 := 'b'; { Giá trị biển kiểu kí tự, phải có dấu nháy đơn }
+	x4 := true; { Giá trị biến kiểu logic, chỉ có true hoặc false }
 end.	
