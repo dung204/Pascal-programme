@@ -59,12 +59,23 @@ var result#2: Real; {Sai}
 var result_2: Real;	{Đúng}
 
 (*
-QUY TẮC 4: KHÔNG đặt tên tiếng Việt có dấu, k dấu thôi (đã là code thì chỉ có tiếng Anh thôi, trừ comment ra)
+QUY TẮC 4: Tên biến phải bắt đầu bằng chữ cái (a-z hoặc A-Z), hoặc dấu gạch dưới (_)
+	Còn lại là không được	
+*)
+
+var viDu1: string; {Đúng}
+var _viDu1: string; {Đúng}
+var 1ViDu: string; {Dù chữ số thuộc các kí tự có thể sử dụng, 
+nhưng không thể sử dụng để bắt đầu tên, nên thế này là sai}
+
+(*
+QUY TẮC 5: KHÔNG đặt tên tiếng Việt có dấu, k dấu thôi (đã là code thì chỉ có tiếng Anh thôi, trừ comment ra)
 Mà nếu có thể thì đặt tên bằng tiếng Anh luôn cho ngầu :)))
 *)
 
+
 (*
-QUY TẮC 5: Các cách đặt tên biến có nhiều từ (cái này chỉ là nên làm):
+QUY TẮC 6: Các cách đặt tên biến có nhiều từ (cái này chỉ là nên làm):
 Với biến (VD với biến tên "kết quả cuộc thi"):
 	PascalCase: KetQuaCuocThi (Viết hoa chữ đầu tiên ở mỗi từ)
 	camelCase: ketQuaCuocThi (Khá giống PascalCase, nhưng chữ từ đầu tiên viết thường toàn bộ) (mình hay dùng kiểu này)
@@ -80,7 +91,7 @@ var thoitiethomnay: Integer; {Đặt kiểu này thì cho thêm tiền mình cx 
 	thoiTietHomNay: Integer; {Thế này là ổn r đó}
 
 (*
-QUY TẮC 6: NÊN đặt tên có nghĩa.
+QUY TẮC 7: NÊN đặt tên có nghĩa.
 
 Mình từng gặp nhiều ng đặt tên biến ... kiểu đánh đố và k tôn trọng người đọc chút nào :(
 
